@@ -20,10 +20,10 @@ Há 31min
 }
 
 :root {
-    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
+    --primary-color: #e68416ff; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --bg-color: #3d1157ff; /* Cor de fundo (cinza escuro) */
 }
 
 body {
@@ -34,10 +34,10 @@ body {
 }
 
 header {
-    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    padding: 4rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
     display: flex; /* Habilita o layout flexbox */
+    flex-direction: column; /* Organiza os itens em coluna (um embaixo do outro) */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-around; /* Distribui os itens com espaço ao redor */
     position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
     top: 0; /* Posição do topo quando sticky */
     background: var(--bg-color); /* Cor de fundo do cabeçalho */
@@ -47,10 +47,12 @@ header {
 }
 
 header h1 {
-    font-size: 1.5rem; /* Tamanho da fonte */
+    font-size: 2rem; /* Tamanho da fonte */
     margin: 0; /* Remove a margem padrão */
+    padding-bottom: 0.5rem; /*Adiciona um espaço inferior*/
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
+    
 }
 
 div input {
@@ -105,22 +107,30 @@ div input:focus {
 
 main {
     overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
-    max-width: full; /* Largura máxima do conteúdo principal */
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
     margin-top: 2rem; /* Margem no topo */
     height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+    padding: 0 1rem; /* Adiciona espaçamento lateral diretamente no main */
 }
 
 article {
     background: none; /* Sem cor de fundo */
-    border-radius: 0; /* Sem bordas arredondadas */
-    padding: 0; /* Remove o padding */
-    padding: 0 1rem; /* Espaçamento interno nos lados */
-    margin-bottom: 1.25rem; /* Margem inferior */
+    border-radius: 8px; /* Arredonda as bordas do card */
+    padding: 1rem; /* Adiciona espaçamento interno */
+    margin: 0 auto 1.25rem auto; /* Centraliza o card horizontalmente e adiciona margem inferior */
     box-shadow: none; /* Sem sombra */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
-    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    border-bottom: 1px solid #4a1e69; /* Borda inferior sutil */
+    max-width: 600px; /* Define uma largura máxima para o card */
+}
+
+.card-imagem {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do seu contêiner (o card) */
+    max-width: 400px; /* Define a largura máxima que a imagem pode atingir */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer, cortando o excesso */
+    border-radius: 8px; /* Arredonda os cantos da imagem */
+    margin-bottom: 1rem; /* Adiciona um espaço entre a imagem e o título */
 }
 
 article:hover {
@@ -208,7 +218,7 @@ article a:hover {
     }
 
     div input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Largura baseada na largura da viewport */
+        width: 100%; /* Largura baseada no contêiner pai */
         font-size: 1.2rem; /* Reduz o tamanho da fonte */
     }
 
