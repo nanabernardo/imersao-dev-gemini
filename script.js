@@ -49,6 +49,11 @@ function renderizarCards(listaDeCards) {
     let article = document.createElement("article");
     article.classList.add("card");
     article.innerHTML = ` 
+     <img
+        src="${dado.imagem}"
+        alt="Foto de um ${dado.raca}"
+        class="card-imagem"
+      />
      <h2>${dado.raca}</h2>
       <p>${dado.ano}</p>
       <p>${dado.funcao}</p>
