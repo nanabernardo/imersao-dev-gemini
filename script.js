@@ -10,7 +10,7 @@ async function carregarDados() {
       throw new Error(`Erro HTTP: ${resposta.status}`);
     }
     dados = await resposta.json();
-    renderizarCards(dados); // Renderiza todos os cards inicialmente
+    cardContainer.innerHTML = `<h2>Bem vindo ao guia de raças. Qual raça você gostaria de conhecer melhor?</h2>`;
   } catch (error) {
     console.error("Falha ao carregar os dados:", error);
     cardContainer.innerHTML = `<p class="erro">Não foi possível carregar os dados. Tente recarregar a página.</p>`;
