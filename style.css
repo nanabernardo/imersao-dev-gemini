@@ -124,6 +124,13 @@ article {
     max-width: 600px; /* Define uma largura máxima para o card */
 }
 
+.card-container {
+    display: flex; /* Habilita o layout flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+}
+
 .card-imagem {
     width: 100%; /* Faz a imagem ocupar 100% da largura do seu contêiner (o card) */
     max-width: 400px; /* Define a largura máxima que a imagem pode atingir */
