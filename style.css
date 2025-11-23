@@ -21,10 +21,10 @@ Há 31min
 
 :root {
     /* Tema Escuro (Padrão) */
-    --primary-color: #e68416ff; /* Cor primária (azul claro) */
+    --primary-color: #dfa460ff; /* Cor primária (laranja claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #3d1157ff; /* Cor de fundo (cinza escuro) */
+    --bg-color: #3d1157ff; /* Cor de fundo (roxo escuro) */
     --card-border-color: #4a1e69;
     --tag-text-color: #3d1157ff;
 }
@@ -286,6 +286,7 @@ article a:hover {
 @media (max-width: 768px) {
     header { /* Estilos para telas com largura máxima de 768px */
         flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        position: static; /* Remove o comportamento fixo/sticky em telas menores */
         padding: 1rem; /* Reduz o espaçamento interno */
     }
 
@@ -330,10 +331,6 @@ article a:hover {
         justify-content: center; /* Centraliza itens */
         flex-direction: column; /* Organiza em coluna */
         gap: 0.5rem; /* Espaçamento entre os itens */
-    }
-
-    .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
     }
 
     button { /* Estilos para o botão em telas muito pequenas */
