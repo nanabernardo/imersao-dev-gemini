@@ -144,19 +144,28 @@ article {
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
     border-bottom: 1px solid #4a1e69; /* Borda inferior sutil */
     max-width: 600px; /* Define uma largura máxima para o card */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .card-container {
     display: flex; /* Habilita o layout flexbox */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center;
+    align-items: stretch; /* Faz os itens esticarem para ter a mesma altura */
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Faz o conteúdo crescer para preencher o espaço */
 }
 
 .card-imagem {
     width: 100%; /* Faz a imagem ocupar 100% da largura do seu contêiner (o card) */
     max-width: 400px; /* Define a largura máxima que a imagem pode atingir */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 50%; /* Mantém a proporção da imagem */
     object-fit: cover; /* Garante que a imagem cubra a área sem distorcer, cortando o excesso */
     border-radius: 8px; /* Arredonda os cantos da imagem */
     margin-bottom: 1rem; /* Adiciona um espaço entre a imagem e o título */
