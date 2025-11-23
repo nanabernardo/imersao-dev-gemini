@@ -1,8 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
   const inputBusca = document.getElementById("input-busca");
-  const botaoMostrarTodos = document.getElementById("botao-mostrar-todos");
   const cardContainer = document.querySelector(".card-container");
+  const botaoTema = document.getElementById("botao-tema");
+  const body = document.body;
   let todosOsCaes = [];
+
+  // Lógica para o botão de tema
+  botaoTema.addEventListener("click", () => {
+    body.classList.toggle("light-theme");
+    // Salva a preferência no localStorage
+    if (body.classList.contains("light-theme")) {
+      localStorage.setItem("theme", "light");
+    } else {
+      localStorage.removeItem("theme");
+    }
+  });
 
   // 1. Carrega os dados do arquivo JSON
   fetch("data.json")
@@ -14,6 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) =>
       console.error("Erro ao carregar os dados dos cães:", error)
     );
+
+  // Verifica se há um tema salvo no localStorage ao carregar a página
+  const temaSalvo = localStorage.getItem("theme");
+  if (temaSalvo === "light") {
+    body.classList.add("light-theme");
+  }
 
   // Função para exibir a mensagem de boas-vindas
   function exibirMensagemInicial() {

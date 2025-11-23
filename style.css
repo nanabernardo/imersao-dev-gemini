@@ -20,10 +20,23 @@ Há 31min
 }
 
 :root {
+    /* Tema Escuro (Padrão) */
     --primary-color: #e68416ff; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
     --bg-color: #3d1157ff; /* Cor de fundo (cinza escuro) */
+    --card-border-color: #4a1e69;
+    --tag-text-color: #3d1157ff;
+}
+
+body.light-theme {
+    /* Tema Claro */
+    --primary-color: #e68416ff;
+    --secondary-color: #202124; /* Texto principal escuro */
+    --tertiary-color: #5f6368; /* Texto secundário/placeholder */
+    --bg-color: #ffffff; /* Fundo branco */
+    --card-border-color: #e0e0e0; /* Borda do card clara */
+    --tag-text-color: #ffffff; /* Texto da tag branco */
 }
 
 body {
@@ -83,9 +96,23 @@ div input:focus {
     box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
 }
 
+#botao-tema {
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--tertiary-color);
+    background-color: transparent;
+    color: var(--tertiary-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
 #botao-busca {
     padding: 1rem 2rem; /* Espaçamento interno */
-    border-radius: 1rem; /* Arredonda as bordas */
+    border-radius: 2rem; /* Arredonda as bordas */
     border: none; /* Remove a borda padrão */
     cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
     font-family: inherit; /* Herda a família da fonte */
@@ -106,7 +133,7 @@ div input:focus {
 
 #botao-mostrar-todos {
     padding: 1rem 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     border: none;
     cursor: pointer;
     font-family: inherit;
@@ -115,7 +142,7 @@ div input:focus {
     white-space: nowrap;
     transition: background-color 0.2s ease, color 0.2s ease;
     background-color: transparent;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 #botao-mostrar-todos:hover {
@@ -124,7 +151,7 @@ div input:focus {
     box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
 }
 
-#botao-busca:active, #botao-mostrar-todos:active {
+#botao-busca:active, #botao-mostrar-todos:active, #botao-tema:active {
     transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
 }
 
@@ -142,7 +169,7 @@ article {
     margin: 0 auto 1.25rem auto; /* Centraliza o card horizontalmente e adiciona margem inferior */
     box-shadow: none; /* Sem sombra */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid #4a1e69; /* Borda inferior sutil */
+    border-bottom: 1px solid var(--card-border-color); /* Borda inferior sutil */
     max-width: 600px; /* Define uma largura máxima para o card */
     display: flex;
     flex-direction: column;
@@ -218,7 +245,7 @@ article a:hover {
 
 .tag {
     background-color: var(--tertiary-color);
-    color: var(--bg-color);
+    color: var(--tag-text-color);
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 0.8rem;
@@ -229,7 +256,7 @@ article a:hover {
     color: var(--tertiary-color); /* Cor do texto */
     background-color: var(--bg-color); /* Cor de fundo */
     padding: 1rem 1.25rem; /* Espaçamento interno */
-    border-top: 1px solid #3c4043; /* Borda superior */
+    border-top: 1px solid var(--card-border-color); /* Borda superior */
     font-size: 0.8rem; /* Tamanho da fonte */
 }
 
