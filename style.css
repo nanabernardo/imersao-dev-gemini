@@ -198,11 +198,6 @@ article {
     margin-bottom: 1rem; /* Adiciona um espaço entre a imagem e o título */
 }
 
-article:hover {
-    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
-    cursor: pointer; /* Muda o cursor para uma mão */
-}
-
 article h2 {
     margin-top: 0; /* Remove a margem superior */
     font-weight: 600; /* Peso da fonte */
