@@ -1,5 +1,86 @@
 [
   {
+    "raca": "Akita",
+    "ano": "Século XVII (Japão)",
+    "funcao": "Caça maior (ursos), guarda e prestígio",
+    "cuidado": "Socialização precoce é crucial; requer um dono experiente; escovação sazonal intensa",
+    "imagem": "https://cdn.pixabay.com/photo/2020/11/21/08/34/akita-5763416_960_720.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Akita_Inu",
+    "tags": ["Guarda", "Japão", "Independente", "Forte"]
+  },
+  {
+    "raca": "Australian Shepherd",
+    "ano": "século XX (EUA).",
+    "funcao": "Pastoreio versátil.",
+    "cuidado": "Precisa trabalhar; risco de atrofia ocular.",
+    "link": "https://pt.wikipedia.org/wiki/Pastor-australiano",
+    "imagem": "https://images.pexels.com/photos/14666144/pexels-photo-14666144.jpeg",
+    "tags": ["Pastoreio", "Trabalho", "Inteligente", "Alta Energia"]
+  },
+  {
+    "raca": "Basset Hound",
+    "ano": "Século XVI (França/Bélgica)",
+    "funcao": "Cão de caça (rastreador)",
+    "cuidado": "Limpeza regular de orelhas e dobras de pele; propenso a ganho de peso; exercício moderado",
+    "imagem": "https://cdn.pixabay.com/photo/2014/05/16/16/34/basset-hound-345646_1280.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Basset_hound",
+    "tags": ["Farejador", "Caça", "Baixa Velocidade", "Teimoso"]
+  },
+  {
+    "raca": "Beagle",
+    "ano": "século XIX.",
+    "funcao": "Caça de lebres.",
+    "cuidado": "Tendência à obesidade.",
+    "link": "https://pt.wikipedia.org/wiki/Beagle",
+    "imagem": "https://images.pexels.com/photos/14116837/pexels-photo-14116837.jpeg",
+    "tags": ["Caça", "Farejador", "Companhia", "Pequeno"]
+  },
+  {
+    "raca": "Bernese Mountain Dog",
+    "ano": "Suíça, cerca de 1800.",
+    "funcao": "Tração de carrinhos e trabalho agrícola.",
+    "cuidado": "Risco de câncer; precisa de clima frio.",
+    "link": "https://pt.wikipedia.org/wiki/Boiadeiro_de_Berna",
+    "imagem": "https://cdn.pixabay.com/photo/2017/10/11/04/01/animal-2839872_960_720.jpg",
+    "tags": ["Trabalho", "Tração", "Família", "Gigante"]
+  },
+  {
+    "raca": "Bichon Frisé",
+    "ano": "século XIX.",
+    "funcao": "Companhia.",
+    "cuidado": "Alergias e demanda por escovação.",
+    "link": "https://pt.wikipedia.org/wiki/Bichon_fris%C3%A9",
+    "imagem": "https://images.pexels.com/photos/16109762/pexels-photo-16109762.png",
+    "tags": ["Companhia", "Hipoalergênico", "Apartamento", "Brincalhão"]
+  },
+  {
+    "raca": "Boerboel",
+    "ano": "África do Sul, século XVII.",
+    "funcao": "Tração e guarda em fazendas.",
+    "cuidado": "Porte grande; precisa de tutor experiente.",
+    "link": "https://pt.wikipedia.org/wiki/Boerboel",
+    "imagem": "https://cdn.pixabay.com/photo/2017/10/11/10/29/boerboel-2840625_960_720.jpg",
+    "tags": ["Guarda", "Molosso", "Trabalho", "Protetor"]
+  },
+  {
+    "raca": "Boiadeiro de Appenzell",
+    "ano": "Suíça.",
+    "funcao": "Tração de carroças.",
+    "cuidado": "Comportamento vigilante; precisa de espaço.",
+    "link": "https://pt.wikipedia.org/wiki/Boiadeiro_de_Appenzell",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dara_essy.jpg",
+    "tags": ["Pastoreio", "Trabalho", "Suíço", "Vigilante"]
+  },
+  {
+    "raca": "Boiadeiro de Entlebuch",
+    "ano": "Suíça, século XIX.",
+    "funcao": "Condução e tração leve.",
+    "cuidado": "Ativo; precisa de treino estruturado.",
+    "link": "https://pt.wikipedia.org/wiki/Boiadeiro_de_Entlebuch",
+    "imagem": "https://cdn.pixabay.com/photo/2019/10/17/15/51/dog-4557201_960_720.jpg",
+    "tags": ["Pastoreio", "Trabalho", "Suíço", "Ativo"]
+  },
+  {
     "raca": "Border Collie",
     "funcao": "Pastoreio de ovelhas com resposta rápida a comandos.",
     "cuidado": "Demanda alta carga mental e física.",
@@ -7,6 +88,87 @@
     "link": "https://pt.wikipedia.org/wiki/Border_Collie",
     "imagem": "https://images.pexels.com/photos/22805768/pexels-photo-22805768.jpeg",
     "tags": ["Pastoreio", "Alta Energia", "Inteligente", "Trabalho"]
+  },
+  {
+    "raca": "Boxer",
+    "ano": "Final do Século XIX (Alemanha)",
+    "funcao": "Guarda, proteção e cão de trabalho",
+    "cuidado": "Não tolera calor; treinamento firme; exercícios moderados e regulares",
+    "imagem": "https://images.pexels.com/photos/5765633/pexels-photo-5765633.jpeg",
+    "link": "https://pt.wikipedia.org/wiki/Boxer",
+    "tags": ["Guarda", "Trabalho", "Brinquedão", "Braquicefálico"]
+  },
+  {
+    "raca": "Braco Alemão (Kurzhaar)",
+    "ano": "século XIX.",
+    "funcao": "Apontar, perseguir e recuperar presas.",
+    "cuidado": "Demanda muito exercício e trabalho.",
+    "link": "https://pt.wikipedia.org/wiki/Braco_alem%C3%A3o_de_pelo_curto",
+    "imagem": "https://images.pexels.com/photos/19572764/pexels-photo-19572764.jpeg",
+    "tags": ["Caça", "Aponte", "Retriever", "Alta Energia"]
+  },
+  {
+    "raca": "Bulldog francês (Frenchie)",
+    "ano": "Meados do Século XIX (França)",
+    "funcao": "Cão de companhia",
+    "cuidado": "Sensibilidade ao calor e esforço (braquicefálico); atenção à pele e dobras",
+    "imagem": "https://cdn.pixabay.com/photo/2019/09/23/16/23/french-bulldog-4499027_1280.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Buldogue_francês",
+    "tags": ["Companhia", "Braquicefálico", "Apartamento", "Baixa Energia"]
+  },
+  {
+    "raca": "Cane Corso",
+    "ano": "Antiguidade (Itália)",
+    "funcao": "Cão de guarda e proteção",
+    "cuidado": "Necessita de treinamento firme e constante; exercícios de socialização rigorosos",
+    "imagem": "https://images.pexels.com/photos/28928406/pexels-photo-28928406.jpeg",
+    "link": "https://pt.wikipedia.org/wiki/Cane_corso",
+    "tags": ["Guarda", "Proteção", "Molosso", "Potente"]
+  },
+  {
+    "raca": "Cão da Montanha dos Pirineus",
+    "ano": "registros desde a Idade Média.",
+    "funcao": "Proteção de rebanho.",
+    "cuidado": "Independente; precisa de espaço.",
+    "link": "https://pt.wikipedia.org/wiki/C%C3%A3o_de_montanha_dos_Piren%C3%A9us",
+    "imagem": "https://images.pexels.com/photos/14245020/pexels-photo-14245020.jpeg",
+    "tags": ["Guarda", "Gigante", "Independente", "Pastoreio"]
+  },
+  {
+    "raca": "Cavalier King Charles Spaniel",
+    "ano": "séculos XVII–XVIII.",
+    "funcao": "Companhia.",
+    "cuidado": "Cardiopatias são comuns.",
+    "link": "https://pt.wikipedia.org/wiki/Cavalier_King_Charles_Spaniel",
+    "imagem": "https://cdn.pixabay.com/photo/2015/06/12/12/34/dog-806883_1280.jpg",
+    "tags": ["Companhia", "Dócil", "Apartamento", "Família"]
+  },
+  {
+    "raca": "Chihuahua",
+    "ano": "México, origem antiga.",
+    "funcao": "Companhia.",
+    "cuidado": "Fragilidade óssea; sensível ao frio.",
+    "link": "https://pt.wikipedia.org/wiki/Chihuahua_(c%C3%A3o)",
+    "imagem": "https://images.pexels.com/photos/34850262/pexels-photo-34850262.jpeg",
+    "tags": ["Companhia", "Miniatura", "Apartamento", "Alerta"]
+  },
+  {
+    "raca": "Cocker Spaniel Inglês",
+    "ano": "século XIX.",
+    "funcao": "Caça e flush de aves.",
+    "cuidado": "Otite é comum; escovação frequente.",
+    "link": "https://pt.wikipedia.org/wiki/Cocker_spaniel_ingl%C3%AAs",
+    "imagem": "https://images.pexels.com/photos/20303364/pexels-photo-20303364.jpeg",
+    "tags": ["Caça", "Companhia", "Pelo Longo", "Família"]
+  },
+  {
+    "raca": "Collie Pelo Curto",
+    "ano": "século XIX.",
+    "funcao": "Pastoreio.",
+    "cuidado": "Exercício regular; pelo curto fácil.",
+    "link": "https://pt.wikipedia.org/wiki/Smooth_collie",
+    "imagem": "https://cdn.pixabay.com/photo/2015/04/17/13/41/collie-727239_1280.jpg",
+    "tags": ["Pastoreio", "Atlético", "Pelo Curto"]
   },
   {
     "raca": "Collie Pelo Longo",
@@ -18,13 +180,121 @@
     "tags": ["Pastoreio", "Companhia", "Pelo Longo", "Família"]
   },
   {
-    "raca": "Collie Pelo Curto",
-    "ano": "século XIX.",
-    "funcao": "Pastoreio.",
-    "cuidado": "Exercício regular; pelo curto fácil.",
-    "link": "https://pt.wikipedia.org/wiki/Smooth_collie",
-    "imagem": "https://cdn.pixabay.com/photo/2015/04/17/13/41/collie-727239_1280.jpg",
-    "tags": ["Pastoreio", "Atlético", "Pelo Curto"]
+    "raca": "Dachshund",
+    "ano": "século XVII (Alemanha).",
+    "funcao": "Caça de texugos e pequenos animais.",
+    "cuidado": "Risco de hérnia de disco.",
+    "link": "https://pt.wikipedia.org/wiki/Dachshund",
+    "imagem": "https://images.pexels.com/photos/7055712/pexels-photo-7055712.jpeg",
+    "tags": ["Caça", "Pequeno", "Companhia", "Teimoso"]
+  },
+  {
+    "raca": "Doberman",
+    "ano": "Por volta de 1860 (Alemanha).",
+    "funcao": "Guarda, proteção e companhia.",
+    "cuidado": "Adestramento é indicado, mwelhor para donos experientes.",
+    "link": "https://pt.wikipedia.org/wiki/Dobermann",
+    "imagem": "https://images.pexels.com/photos/975413/pexels-photo-975413.jpeg",
+    "tags": ["Guarda", "Obediente", "Companhia", "Teimoso"]
+  },
+  {
+    "raca": "Foxhound Inglês",
+    "ano": "século XVIII.",
+    "funcao": "Caça de raposas.",
+    "cuidado": "Precisa correr muito; não é cão urbano típico.",
+    "link": "https://pt.wikipedia.org/wiki/Foxhound_ingl%C3%AAs",
+    "imagem": "https://images.pexels.com/photos/18719151/pexels-photo-18719151.jpeg",
+    "tags": ["Caça", "Farejador", "Matilha", "Alta Energia"]
+  },
+  {
+    "raca": "Golden Retriever",
+    "ano": "final do século XIX.",
+    "funcao": "Cão de caça para recuperar aves.",
+    "cuidado": "Propenso a alergias e displasia.",
+    "link": "https://pt.wikipedia.org/wiki/Golden_retriever",
+    "imagem": "https://images.pexels.com/photos/34806694/pexels-photo-34806694.jpeg",
+    "tags": ["Companhia", "Família", "Retriever", "Caça"]
+  },
+  {
+    "raca": "Great Dane (Dog Alemão)",
+    "ano": "Final do Século XVII (Alemanha)",
+    "funcao": "Cão de caça (javali) e guarda",
+    "cuidado": "Alimentação controlada em crescimento; atenção à displasia e inchaço estomacal",
+    "imagem": "https://images.pexels.com/photos/28479799/pexels-photo-28479799.jpeg",
+    "link": "https://pt.wikipedia.org/wiki/Dogue_alemão",
+    "tags": ["Gigante", "Guarda", "Companhia", "Caça Maior"]
+  },
+  {
+    "raca": "Greyhound (Galgo inglês)",
+    "ano": "Antiguidade (Oriente Médio, popularizado na Europa)",
+    "funcao": "Corrida e caça por visão",
+    "cuidado": "Necessidade de sprints curtos e intensos; sensibilidade a drogas anestésicas; baixa tolerância ao frio",
+    "imagem": "https://cdn.pixabay.com/photo/2019/01/30/13/26/greyhound-racing-3964594_1280.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Galgo_inglês",
+    "tags": ["Velocidade", "Caça por Visão", "Atlético", "Dócil"]
+  },
+  {
+    "raca": "Jack russell terrier",
+    "ano": "metade do século XIX (Inglaterra)",
+    "funcao": "Cão de caça (rastreador)",
+    "cuidado": "Exige muita atividade física e desafios",
+    "imagem": "https://cdn.pixabay.com/photo/2025/11/01/19/24/jack-russell-9931322_1280.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Jack_russell_terrier",
+    "tags": ["Corajoso", "Caça", "Forte", "Pequeno"]
+  },
+  {
+    "raca": "Labrador Retriever",
+    "ano": "século XIX (Canadá).",
+    "funcao": "Retriever aquático.",
+    "cuidado": "Precisa de muito exercício; tendência à obesidade.",
+    "link": "https://pt.wikipedia.org/wiki/Labrador_retriever",
+    "imagem": "https://images.pexels.com/photos/6034372/pexels-photo-6034372.jpeg",
+    "tags": ["Companhia", "Família", "Retriever", "Caça", "Aquático"]
+  },
+  {
+    "raca": "Lhasa Apso",
+    "ano": "Tibet, mais de 1.000 anos.",
+    "funcao": "Guarda e companhia.",
+    "cuidado": "Pelagem longa; tonalidade de comportamento independente.",
+    "link": "https://pt.wikipedia.org/wiki/Lhasa_apso",
+    "imagem": "https://images.pexels.com/photos/30771753/pexels-photo-30771753.jpeg",
+    "tags": ["Companhia", "Alerta", "Independente", "Pelo Longo"]
+  },
+  {
+    "raca": "Malamute do Alasca",
+    "ano": "raça ancestral do Ártico.",
+    "funcao": "Puxar cargas pesadas.",
+    "cuidado": "Forte, teimoso; muito exercício.",
+    "link": "https://pt.wikipedia.org/wiki/Malamute-do-alasca",
+    "imagem": "https://cdn.pixabay.com/photo/2023/11/24/16/37/dog-8410277_1280.jpg",
+    "tags": ["Trabalho", "Trenó", "Gigante", "Força"]
+  },
+  {
+    "raca": "Maltês",
+    "ano": "registros desde a Antiguidade.",
+    "funcao": "Companhia.",
+    "cuidado": "Pelagem longa exige manutenção diária.",
+    "link": "https://pt.wikipedia.org/wiki/Malt%C3%AAs_(c%C3%A3o)",
+    "imagem": "https://cdn.pixabay.com/photo/2018/08/27/17/05/dog-3635504_1280.jpg",
+    "tags": ["Companhia", "Pelo Longo", "Apartamento", "Hipoalergênico"]
+  },
+  {
+    "raca": "Mastiff Inglês",
+    "ano": "milenar.",
+    "funcao": "Guarda e tração pesada ocasional.",
+    "cuidado": "Gigante; risco de problemas ortopédicos.",
+    "link": "https://pt.wikipedia.org/wiki/Mastim_ingl%C3%AAs",
+    "imagem": "https://images.pexels.com/photos/9144968/pexels-photo-9144968.jpeg",
+    "tags": ["Guarda", "Gigante", "Molosso", "Dócil"]
+  },
+  {
+    "raca": "Old English Sheepdog",
+    "ano": "século XVIII (Reino Unido).",
+    "funcao": "Condução de rebanhos.",
+    "cuidado": "Pelagem muito densa exige escovação pesada.",
+    "link": "https://pt.wikipedia.org/wiki/Old_English_Sheepdog",
+    "imagem": "https://images.pexels.com/photos/29821960/pexels-photo-29821960.jpeg",
+    "tags": ["Pastoreio", "Pelo Longo", "Família", "Grande"]
   },
   {
     "raca": "Pastor Alemão",
@@ -45,6 +315,15 @@
     "tags": ["Trabalho", "Proteção", "Alta Energia", "Atlético"]
   },
   {
+    "raca": "Pastor Branco Suíço",
+    "ano": "1991 foi aceita (Suíça).",
+    "funcao": "Pastoreio, proteção e trabalho.",
+    "cuidado": "Necessida atividade física e mental. Atenção para displazia Coxofemural e de cotovelo.",
+    "link": "https://pt.wikipedia.org/wiki/Pastor-branco-su%C3%AD%C3%A7o",
+    "imagem": "https://cdn.pixabay.com/photo/2014/05/26/13/27/swiss-shepherd-dog-354526_1280.jpg",
+    "tags": ["Trabalho", "Proteção", "Sociáveis", "Atlético"]
+  },
+  {
     "raca": "Pastor de Shetland (Sheltie)",
     "ano": "século XIX (Escócia).",
     "funcao": "Pastoreio de pequenos rebanhos.",
@@ -52,33 +331,6 @@
     "link": "https://pt.wikipedia.org/wiki/Pastor_de_Shetland",
     "imagem": "https://images.pexels.com/photos/7210658/pexels-photo-7210658.jpeg",
     "tags": ["Pastoreio", "Pequeno", "Família", "Pelo Longo"]
-  },
-  {
-    "raca": "Australian Shepherd",
-    "ano": "século XX (EUA).",
-    "funcao": "Pastoreio versátil.",
-    "cuidado": "Precisa trabalhar; risco de atrofia ocular.",
-    "link": "https://pt.wikipedia.org/wiki/Pastor-australiano",
-    "imagem": "https://images.pexels.com/photos/14666144/pexels-photo-14666144.jpeg",
-    "tags": ["Pastoreio", "Trabalho", "Inteligente", "Alta Energia"]
-  },
-  {
-    "raca": "Old English Sheepdog",
-    "ano": "século XVIII (Reino Unido).",
-    "funcao": "Condução de rebanhos.",
-    "cuidado": "Pelagem muito densa exige escovação pesada.",
-    "link": "https://pt.wikipedia.org/wiki/Old_English_Sheepdog",
-    "imagem": "https://images.pexels.com/photos/29821960/pexels-photo-29821960.jpeg",
-    "tags": ["Pastoreio", "Pelo Longo", "Família", "Grande"]
-  },
-  {
-    "raca": "Cão da Montanha dos Pirineus",
-    "ano": "registros desde a Idade Média.",
-    "funcao": "Proteção de rebanho.",
-    "cuidado": "Independente; precisa de espaço.",
-    "link": "https://pt.wikipedia.org/wiki/C%C3%A3o_de_montanha_dos_Piren%C3%A9us",
-    "imagem": "https://images.pexels.com/photos/14245020/pexels-photo-14245020.jpeg",
-    "tags": ["Guarda", "Gigante", "Independente", "Pastoreio"]
   },
   {
     "raca": "Pastor Maremano Abruzês",
@@ -90,42 +342,6 @@
     "tags": ["Guarda", "Pastoreio", "Protetor", "Independente"]
   },
   {
-    "raca": "Beagle",
-    "ano": "século XIX.",
-    "funcao": "Caça de lebres.",
-    "cuidado": "Tendência à obesidade.",
-    "link": "https://pt.wikipedia.org/wiki/Beagle",
-    "imagem": "https://images.pexels.com/photos/14116837/pexels-photo-14116837.jpeg",
-    "tags": ["Caça", "Farejador", "Companhia", "Pequeno"]
-  },
-  {
-    "raca": "Golden Retriever",
-    "ano": "final do século XIX.",
-    "funcao": "Cão de caça para recuperar aves.",
-    "cuidado": "Propenso a alergias e displasia.",
-    "link": "https://pt.wikipedia.org/wiki/Golden_retriever",
-    "imagem": "https://images.pexels.com/photos/34806694/pexels-photo-34806694.jpeg",
-    "tags": ["Companhia", "Família", "Retriever", "Caça"]
-  },
-  {
-    "raca": "Labrador Retriever",
-    "ano": "século XIX (Canadá).",
-    "funcao": "Retriever aquático.",
-    "cuidado": "Precisa de muito exercício; tendência à obesidade.",
-    "link": "https://pt.wikipedia.org/wiki/Labrador_retriever",
-    "imagem": "https://images.pexels.com/photos/6034372/pexels-photo-6034372.jpeg",
-    "tags": ["Companhia", "Família", "Retriever", "Caça", "Aquático"]
-  },
-  {
-    "raca": "Setter Inglês",
-    "ano": "séculos XVII–XIX.",
-    "funcao": "Cão de aponte.",
-    "cuidado": "Alta energia; pelo médio exige escovação.",
-    "link": "https://pt.wikipedia.org/wiki/Setter_ingl%C3%AAs",
-    "imagem": "https://images.pexels.com/photos/6204545/pexels-photo-6204545.jpeg",
-    "tags": ["Caça", "Aponte", "Alta Energia", "Pelo Longo"]
-  },
-  {
     "raca": "Pointer Inglês",
     "ano": "século XVIII.",
     "funcao": "Aponta aves para o caçador.",
@@ -133,69 +349,6 @@
     "link": "https://pt.wikipedia.org/wiki/Pointer_ingl%C3%AAs",
     "imagem": "https://cdn.pixabay.com/photo/2020/06/29/11/22/bitch-5352390_1280.jpg",
     "tags": ["Caça", "Aponte", "Alta Energia", "Atlético"]
-  },
-  {
-    "raca": "Dachshund",
-    "ano": "século XVII (Alemanha).",
-    "funcao": "Caça de texugos e pequenos animais.",
-    "cuidado": "Risco de hérnia de disco.",
-    "link": "https://pt.wikipedia.org/wiki/Dachshund",
-    "imagem": "https://images.pexels.com/photos/7055712/pexels-photo-7055712.jpeg",
-    "tags": ["Caça", "Pequeno", "Companhia", "Teimoso"]
-  },
-  {
-    "raca": "Foxhound Inglês",
-    "ano": "século XVIII.",
-    "funcao": "Caça de raposas.",
-    "cuidado": "Precisa correr muito; não é cão urbano típico.",
-    "link": "https://pt.wikipedia.org/wiki/Foxhound_ingl%C3%AAs",
-    "imagem": "https://images.pexels.com/photos/18719151/pexels-photo-18719151.jpeg",
-    "tags": ["Caça", "Farejador", "Matilha", "Alta Energia"]
-  },
-  {
-    "raca": "Cocker Spaniel Inglês",
-    "ano": "século XIX.",
-    "funcao": "Caça e flush de aves.",
-    "cuidado": "Otite é comum; escovação frequente.",
-    "link": "https://pt.wikipedia.org/wiki/Cocker_spaniel_ingl%C3%AAs",
-    "imagem": "https://images.pexels.com/photos/20303364/pexels-photo-20303364.jpeg",
-    "tags": ["Caça", "Companhia", "Pelo Longo", "Família"]
-  },
-  {
-    "raca": "Weimaraner",
-    "ano": "século XIX (Alemanha).",
-    "funcao": "Caça de grande porte.",
-    "cuidado": "Precisa de estímulo mental; ansiedade se isolado.",
-    "link": "https://pt.wikipedia.org/wiki/Weimaraner",
-    "imagem": "https://images.pexels.com/photos/5706414/pexels-photo-5706414.jpeg",
-    "tags": ["Caça", "Alta Energia", "Atlético", "Aponte"]
-  },
-  {
-    "raca": "Braco Alemão (Kurzhaar)",
-    "ano": "século XIX.",
-    "funcao": "Apontar, perseguir e recuperar presas.",
-    "cuidado": "Demanda muito exercício e trabalho.",
-    "link": "https://pt.wikipedia.org/wiki/Braco_alem%C3%A3o_de_pelo_curto",
-    "imagem": "https://images.pexels.com/photos/19572764/pexels-photo-19572764.jpeg",
-    "tags": ["Caça", "Aponte", "Retriever", "Alta Energia"]
-  },
-  {
-    "raca": "Shih Tzu",
-    "ano": "raça milenar chinesa.",
-    "funcao": "Companhia.",
-    "cuidado": "Olhos e pelagem exigem atenção.",
-    "link": "https://pt.wikipedia.org/wiki/Shih-tzu",
-    "imagem": "https://images.pexels.com/photos/3215613/pexels-photo-3215613.jpeg",
-    "tags": ["Companhia", "Pelo Longo", "Braquicefálico", "Apartamento"]
-  },
-  {
-    "raca": "Lhasa Apso",
-    "ano": "Tibet, mais de 1.000 anos.",
-    "funcao": "Guarda e companhia.",
-    "cuidado": "Pelagem longa; tonalidade de comportamento independente.",
-    "link": "https://pt.wikipedia.org/wiki/Lhasa_apso",
-    "imagem": "https://images.pexels.com/photos/30771753/pexels-photo-30771753.jpeg",
-    "tags": ["Companhia", "Alerta", "Independente", "Pelo Longo"]
   },
   {
     "raca": "Poodle",
@@ -207,24 +360,6 @@
     "tags": ["Companhia", "Inteligente", "Hipoalergênico", "Agility"]
   },
   {
-    "raca": "Bichon Frisé",
-    "ano": "século XIX.",
-    "funcao": "Companhia.",
-    "cuidado": "Alergias e demanda por escovação.",
-    "link": "https://pt.wikipedia.org/wiki/Bichon_fris%C3%A9",
-    "imagem": "https://images.pexels.com/photos/16109762/pexels-photo-16109762.png",
-    "tags": ["Companhia", "Hipoalergênico", "Apartamento", "Brincalhão"]
-  },
-  {
-    "raca": "Chihuahua",
-    "ano": "México, origem antiga.",
-    "funcao": "Companhia.",
-    "cuidado": "Fragilidade óssea; sensível ao frio.",
-    "link": "https://pt.wikipedia.org/wiki/Chihuahua_(c%C3%A3o)",
-    "imagem": "https://images.pexels.com/photos/34850262/pexels-photo-34850262.jpeg",
-    "tags": ["Companhia", "Miniatura", "Apartamento", "Alerta"]
-  },
-  {
     "raca": "Pug",
     "ano": "China antiga.",
     "funcao": "Companhia.",
@@ -232,87 +367,6 @@
     "link": "https://pt.wikipedia.org/wiki/Pug",
     "imagem": "https://images.pexels.com/photos/1591939/pexels-photo-1591939.jpeg",
     "tags": ["Companhia", "Braquicefálico", "Apartamento", "Baixa Energia"]
-  },
-  {
-    "raca": "Maltês",
-    "ano": "registros desde a Antiguidade.",
-    "funcao": "Companhia.",
-    "cuidado": "Pelagem longa exige manutenção diária.",
-    "link": "https://pt.wikipedia.org/wiki/Malt%C3%AAs_(c%C3%A3o)",
-    "imagem": "https://cdn.pixabay.com/photo/2018/08/27/17/05/dog-3635504_1280.jpg",
-    "tags": ["Companhia", "Pelo Longo", "Apartamento", "Hipoalergênico"]
-  },
-  {
-    "raca": "Yorkshire Terrier",
-    "ano": "século XIX.",
-    "funcao": "Companhia + controle de roedores.",
-    "cuidado": "Comportamento ativo; pelo exige escovação.",
-    "link": "https://pt.wikipedia.org/wiki/Yorkshire_terrier",
-    "imagem": "https://cdn.pixabay.com/photo/2013/11/23/02/17/dog-216282_1280.jpg",
-    "tags": ["Companhia", "Terrier", "Apartamento", "Pelo Longo"]
-  },
-  {
-    "raca": "Spitz Alemão (Lulu da Pomerânia)",
-    "ano": "Europa, século XIX.",
-    "funcao": "Companhia.",
-    "cuidado": "Escovação do subpelo; latidos frequentes se não treinado.",
-    "link": "https://pt.wikipedia.org/wiki/Spitz_alem%C3%A3o",
-    "imagem": "https://cdn.pixabay.com/photo/2018/08/20/14/08/dog-3619020_1280.jpg",
-    "tags": ["Companhia", "Spitz", "Alerta", "Apartamento"]
-  },
-  {
-    "raca": "Cavalier King Charles Spaniel",
-    "ano": "séculos XVII–XVIII.",
-    "funcao": "Companhia.",
-    "cuidado": "Cardiopatias são comuns.",
-    "link": "https://pt.wikipedia.org/wiki/Cavalier_King_Charles_Spaniel",
-    "imagem": "https://cdn.pixabay.com/photo/2015/06/12/12/34/dog-806883_1280.jpg",
-    "tags": ["Companhia", "Dócil", "Apartamento", "Família"]
-  },
-  {
-    "raca": "Siberian Husky",
-    "ano": "centenas de anos (Chukchi).",
-    "funcao": "Tração de trenós.",
-    "cuidado": "Alta energia; não tolera calor.",
-    "link": "https://pt.wikipedia.org/wiki/Husky_siberiano",
-    "imagem": "https://cdn.pixabay.com/photo/2016/03/30/19/04/siberian-husky-1291343_1280.jpg",
-    "tags": ["Trabalho", "Trenó", "Alta Energia", "Spitz"]
-  },
-  {
-    "raca": "Malamute do Alasca",
-    "ano": "raça ancestral do Ártico.",
-    "funcao": "Puxar cargas pesadas.",
-    "cuidado": "Forte, teimoso; muito exercício.",
-    "link": "https://pt.wikipedia.org/wiki/Malamute-do-alasca",
-    "imagem": "https://cdn.pixabay.com/photo/2023/11/24/16/37/dog-8410277_1280.jpg",
-    "tags": ["Trabalho", "Trenó", "Gigante", "Força"]
-  },
-  {
-    "raca": "Samoieda",
-    "ano": "povos siberianos antigos.",
-    "funcao": "Tração e pastoreio de renas.",
-    "cuidado": "Pelo espesso; tendência a ansiedade social.",
-    "link": "https://pt.wikipedia.org/wiki/Samoieda",
-    "imagem": "https://cdn.pixabay.com/photo/2021/11/06/18/07/samoyed-6773995_1280.jpg",
-    "tags": ["Trabalho", "Spitz", "Companhia", "Pelo Longo"]
-  },
-  {
-    "raca": "Terra Nova (Newfoundland)",
-    "ano": "séculos XVII–XVIII.",
-    "funcao": "Tração e resgate aquático.",
-    "cuidado": "Gigante; propenso a displasia e problemas cardíacos.",
-    "link": "https://pt.wikipedia.org/wiki/Terra-nova_(c%C3%A3o)",
-    "imagem": "https://cdn.pixabay.com/photo/2021/11/19/12/51/newfoundland-dog-6809315_1280.jpg",
-    "tags": ["Gigante", "Resgate", "Aquático", "Dócil"]
-  },
-  {
-    "raca": "Bernese Mountain Dog",
-    "ano": "Suíça, cerca de 1800.",
-    "funcao": "Tração de carrinhos e trabalho agrícola.",
-    "cuidado": "Risco de câncer; precisa de clima frio.",
-    "link": "https://pt.wikipedia.org/wiki/Boiadeiro_de_Berna",
-    "imagem": "https://cdn.pixabay.com/photo/2017/10/11/04/01/animal-2839872_960_720.jpg",
-    "tags": ["Trabalho", "Tração", "Família", "Gigante"]
   },
   {
     "raca": "Rottweiler",
@@ -324,94 +378,22 @@
     "tags": ["Guarda", "Trabalho", "Proteção", "Molosso"]
   },
   {
-    "raca": "Boiadeiro de Entlebuch",
-    "ano": "Suíça, século XIX.",
-    "funcao": "Condução e tração leve.",
-    "cuidado": "Ativo; precisa de treino estruturado.",
-    "link": "https://pt.wikipedia.org/wiki/Boiadeiro_de_Entlebuch",
-    "imagem": "https://cdn.pixabay.com/photo/2019/10/17/15/51/dog-4557201_960_720.jpg",
-    "tags": ["Pastoreio", "Trabalho", "Suíço", "Ativo"]
+    "raca": "Samoieda",
+    "ano": "povos siberianos antigos.",
+    "funcao": "Tração e pastoreio de renas.",
+    "cuidado": "Pelo espesso; tendência a ansiedade social.",
+    "link": "https://pt.wikipedia.org/wiki/Samoieda",
+    "imagem": "https://cdn.pixabay.com/photo/2021/11/06/18/07/samoyed-6773995_1280.jpg",
+    "tags": ["Trabalho", "Spitz", "Companhia", "Pelo Longo"]
   },
   {
-    "raca": "Boiadeiro de Appenzell",
-    "ano": "Suíça.",
-    "funcao": "Tração de carroças.",
-    "cuidado": "Comportamento vigilante; precisa de espaço.",
-    "link": "https://pt.wikipedia.org/wiki/Boiadeiro_de_Appenzell",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dara_essy.jpg",
-    "tags": ["Pastoreio", "Trabalho", "Suíço", "Vigilante"]
-  },
-  {
-    "raca": "Mastiff Inglês",
-    "ano": "milenar.",
-    "funcao": "Guarda e tração pesada ocasional.",
-    "cuidado": "Gigante; risco de problemas ortopédicos.",
-    "link": "https://pt.wikipedia.org/wiki/Mastim_ingl%C3%AAs",
-    "imagem": "https://images.pexels.com/photos/9144968/pexels-photo-9144968.jpeg",
-    "tags": ["Guarda", "Gigante", "Molosso", "Dócil"]
-  },
-  {
-    "raca": "Boerboel",
-    "ano": "África do Sul, século XVII.",
-    "funcao": "Tração e guarda em fazendas.",
-    "cuidado": "Porte grande; precisa de tutor experiente.",
-    "link": "https://pt.wikipedia.org/wiki/Boerboel",
-    "imagem": "https://cdn.pixabay.com/photo/2017/10/11/10/29/boerboel-2840625_960_720.jpg",
-    "tags": ["Guarda", "Molosso", "Trabalho", "Protetor"]
-  },
-  {
-    "raca": "Great Dane (Dog Alemão)",
-    "ano": "Final do Século XVII (Alemanha)",
-    "funcao": "Cão de caça (javali) e guarda",
-    "cuidado": "Alimentação controlada em crescimento; atenção à displasia e inchaço estomacal",
-    "imagem": "https://images.pexels.com/photos/28479799/pexels-photo-28479799.jpeg",
-    "link": "https://pt.wikipedia.org/wiki/Dogue_alemão",
-    "tags": ["Gigante", "Guarda", "Companhia", "Caça Maior"]
-  },
-  {
-    "raca": "Boxer",
-    "ano": "Final do Século XIX (Alemanha)",
-    "funcao": "Guarda, proteção e cão de trabalho",
-    "cuidado": "Não tolera calor; treinamento firme; exercícios moderados e regulares",
-    "imagem": "https://images.pexels.com/photos/5765633/pexels-photo-5765633.jpeg",
-    "link": "https://pt.wikipedia.org/wiki/Boxer",
-    "tags": ["Guarda", "Trabalho", "Brinquedão", "Braquicefálico"]
-  },
-  {
-    "raca": "Akita",
-    "ano": "Século XVII (Japão)",
-    "funcao": "Caça maior (ursos), guarda e prestígio",
-    "cuidado": "Socialização precoce é crucial; requer um dono experiente; escovação sazonal intensa",
-    "imagem": "https://cdn.pixabay.com/photo/2024/03/02/21/13/akita-8609485_1280.jpg",
-    "link": "https://pt.wikipedia.org/wiki/Akita_Inu",
-    "tags": ["Guarda", "Japão", "Independente", "Forte"]
-  },
-  {
-    "raca": "Cane Corso",
-    "ano": "Antiguidade (Itália)",
-    "funcao": "Cão de guarda e proteção",
-    "cuidado": "Necessita de treinamento firme e constante; exercícios de socialização rigorosos",
-    "imagem": "https://images.pexels.com/photos/28928406/pexels-photo-28928406.jpeg",
-    "link": "https://pt.wikipedia.org/wiki/Cane_corso",
-    "tags": ["Guarda", "Proteção", "Molosso", "Potente"]
-  },
-  {
-    "raca": "Bulldog francês (Frenchie)",
-    "ano": "Meados do Século XIX (França)",
-    "funcao": "Cão de companhia",
-    "cuidado": "Sensibilidade ao calor e esforço (braquicefálico); atenção à pele e dobras",
-    "imagem": "https://cdn.pixabay.com/photo/2019/09/23/16/23/french-bulldog-4499027_1280.jpg",
-    "link": "https://pt.wikipedia.org/wiki/Buldogue_francês",
-    "tags": ["Companhia", "Braquicefálico", "Apartamento", "Baixa Energia"]
-  },
-  {
-    "raca": "Greyhound (Galgo inglês)",
-    "ano": "Antiguidade (Oriente Médio, popularizado na Europa)",
-    "funcao": "Corrida e caça por visão",
-    "cuidado": "Necessidade de sprints curtos e intensos; sensibilidade a drogas anestésicas; baixa tolerância ao frio",
-    "imagem": "https://cdn.pixabay.com/photo/2019/01/30/13/26/greyhound-racing-3964594_1280.jpg",
-    "link": "https://pt.wikipedia.org/wiki/Galgo_inglês",
-    "tags": ["Velocidade", "Caça por Visão", "Atlético", "Dócil"]
+    "raca": "Setter Inglês",
+    "ano": "séculos XVII–XIX.",
+    "funcao": "Cão de aponte.",
+    "cuidado": "Alta energia; pelo médio exige escovação.",
+    "link": "https://pt.wikipedia.org/wiki/Setter_ingl%C3%AAs",
+    "imagem": "https://images.pexels.com/photos/6204545/pexels-photo-6204545.jpeg",
+    "tags": ["Caça", "Aponte", "Alta Energia", "Pelo Longo"]
   },
   {
     "raca": "Shiba Inu",
@@ -423,6 +405,42 @@
     "tags": ["Japão", "Independente", "Companhia", "Spitz"]
   },
   {
+    "raca": "Shih Tzu",
+    "ano": "raça milenar chinesa.",
+    "funcao": "Companhia.",
+    "cuidado": "Olhos e pelagem exigem atenção.",
+    "link": "https://pt.wikipedia.org/wiki/Shih-tzu",
+    "imagem": "https://images.pexels.com/photos/3215613/pexels-photo-3215613.jpeg",
+    "tags": ["Companhia", "Pelo Longo", "Braquicefálico", "Apartamento"]
+  },
+  {
+    "raca": "Siberian Husky",
+    "ano": "centenas de anos (Chukchi).",
+    "funcao": "Tração de trenós.",
+    "cuidado": "Alta energia; não tolera calor.",
+    "link": "https://pt.wikipedia.org/wiki/Husky_siberiano",
+    "imagem": "https://cdn.pixabay.com/photo/2016/03/30/19/04/siberian-husky-1291343_1280.jpg",
+    "tags": ["Trabalho", "Trenó", "Alta Energia", "Spitz"]
+  },
+  {
+    "raca": "Spitz Alemão (Lulu da Pomerânia)",
+    "ano": "Europa, século XIX.",
+    "funcao": "Companhia.",
+    "cuidado": "Escovação do subpelo; latidos frequentes se não treinado.",
+    "link": "https://pt.wikipedia.org/wiki/Spitz_alem%C3%A3o",
+    "imagem": "https://cdn.pixabay.com/photo/2018/08/20/14/08/dog-3619020_1280.jpg",
+    "tags": ["Companhia", "Spitz", "Alerta", "Apartamento"]
+  },
+  {
+    "raca": "Terra Nova (Newfoundland)",
+    "ano": "séculos XVII–XVIII.",
+    "funcao": "Tração e resgate aquático.",
+    "cuidado": "Gigante; propenso a displasia e problemas cardíacos.",
+    "link": "https://pt.wikipedia.org/wiki/Terra-nova_(c%C3%A3o)",
+    "imagem": "https://cdn.pixabay.com/photo/2021/11/19/12/51/newfoundland-dog-6809315_1280.jpg",
+    "tags": ["Gigante", "Resgate", "Aquático", "Dócil"]
+  },
+  {
     "raca": "Vizsla(Braco húngaro de pelo curto)",
     "ano": "Século X (Hungria)",
     "funcao": "Cão de caça (apontador e retriever)",
@@ -432,21 +450,21 @@
     "tags": ["Caça", "Atlético", "Alta Energia", "Companhia"]
   },
   {
-    "raca": "Basset Hound",
-    "ano": "Século XVI (França/Bélgica)",
-    "funcao": "Cão de caça (rastreador)",
-    "cuidado": "Limpeza regular de orelhas e dobras de pele; propenso a ganho de peso; exercício moderado",
-    "imagem": "https://cdn.pixabay.com/photo/2014/05/16/16/34/basset-hound-345646_1280.jpg",
-    "link": "https://pt.wikipedia.org/wiki/Basset_hound",
-    "tags": ["Farejador", "Caça", "Baixa Velocidade", "Teimoso"]
+    "raca": "Weimaraner",
+    "ano": "século XIX (Alemanha).",
+    "funcao": "Caça de grande porte.",
+    "cuidado": "Precisa de estímulo mental; ansiedade se isolado.",
+    "link": "https://pt.wikipedia.org/wiki/Weimaraner",
+    "imagem": "https://images.pexels.com/photos/5706414/pexels-photo-5706414.jpeg",
+    "tags": ["Caça", "Alta Energia", "Atlético", "Aponte"]
   },
   {
-    "raca": "Jack russell terrier",
-    "ano": "metade do século XIX (Inglaterra)",
-    "funcao": "Cão de caça (rastreador)",
-    "cuidado": "Exige muita atividade física e desafios",
-    "imagem": "https://cdn.pixabay.com/photo/2025/11/01/19/24/jack-russell-9931322_1280.jpg",
-    "link": "https://pt.wikipedia.org/wiki/Jack_russell_terrier",
-    "tags": ["Corajoso", "Caça", "Forte", "Pequeno"]
+    "raca": "Yorkshire Terrier",
+    "ano": "século XIX.",
+    "funcao": "Companhia + controle de roedores.",
+    "cuidado": "Comportamento ativo; pelo exige escovação.",
+    "link": "https://pt.wikipedia.org/wiki/Yorkshire_terrier",
+    "imagem": "https://cdn.pixabay.com/photo/2013/11/23/02/17/dog-216282_1280.jpg",
+    "tags": ["Companhia", "Terrier", "Apartamento", "Pelo Longo"]
   }
 ]
